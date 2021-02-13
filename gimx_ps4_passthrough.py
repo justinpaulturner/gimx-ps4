@@ -223,7 +223,7 @@ class PS4Controller(object):
                     Ps4Controls.L3 : b_dict['l3'],
                     Ps4Controls.R3 : b_dict['r3'],
                     }
-                if (curr_time := int(round(time.time() * 1000))) > millis+100:
+                if (curr_time := int(round(time.time() * 1000))) > millis+30:
                     millis = curr_time
                     send_message(ip, port, state)
                     print(f"sent at {millis}", end='\r')
