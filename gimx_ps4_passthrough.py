@@ -1,5 +1,5 @@
 # Credit for a lot of the code: https://github.com/matlo/gimx-network-client
-
+# Credit for PS4 pygame connection: https://gist.github.com/claymcleod/028386b860b75e4f5472
 import socket
 import struct
 import sys
