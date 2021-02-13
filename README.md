@@ -10,3 +10,10 @@ Code to pass ps4 controller input through to running gimx server for ps4 in pyth
 -- Input: Network
 -- IP:port: 127.0.0.1:51914
 -- Messages: text 
+- pygame installation
+
+```
+cd path/to/gimx-ps4
+pip install pygame
+python gimx_ps4_passthrough.py
+```
