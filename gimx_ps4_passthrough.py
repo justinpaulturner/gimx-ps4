@@ -1,3 +1,5 @@
+# Credit for a lot of the code: https://github.com/matlo/gimx-network-client
+
 import socket
 import struct
 import sys
